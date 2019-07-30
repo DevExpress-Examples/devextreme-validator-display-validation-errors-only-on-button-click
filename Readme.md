@@ -4,7 +4,7 @@
 <!-- default file list end -->
 #  dxValidator - How to display validation errors only on a button click
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t451354)**
+**[[Run Online]](https://codecentral.devexpress.com/t451354/)**
 <!-- run online end -->
 
 
