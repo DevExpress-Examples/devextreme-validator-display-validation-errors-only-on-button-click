@@ -12,6 +12,8 @@ This example illustrates how to avoid validating an editor after its value was c
 **[[Run Online]](https://codecentral.devexpress.com/128584732/)**
 <!-- run online end -->
 
+<div align="center"><img alt="DevExtreme Validator - How to display validation errors only on a button click" src="validator_after_submit.png" /></div>
+
 ## Files to Review
 
 - **JS**
