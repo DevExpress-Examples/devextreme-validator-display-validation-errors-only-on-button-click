@@ -7,7 +7,7 @@
 
 #  Validator for DevExtreme - How to display validation errors only on a button click
 
-This example illustrates how to avoid validating an editor after its value was changed. Validation is performed on a button click only. The main idea is to extend the default adapter and override the <a href="https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/adapter/#bypass">bypass</a> function to complete this task. For this, create a global variable to determine if validation was raised on a button click.<br>
+This example illustrates how to avoid validating an editor after its value was changed. Validation is performed on a button click only. The main idea is to extend the default adapter and override the <a href="https://js.devexpress.com/jQuery/Documentation/ApiReference/UI_Components/dxValidator/Configuration/adapter/#bypass">bypass</a> function to complete this task. For this, create a global variable to determine if validation was raised on a button click.<br>
 
 
 <div align="center"><img alt="DevExtreme Validator - How to display validation errors only on a button click" src="validator_after_submit.png" /></div>
