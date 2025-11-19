@@ -1,54 +1,29 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/340354634/25.1.2%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1129779)
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128584732/16.1.6%2B)
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T451354)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# DevExtreme Examples Template
 
-This is the repository template for creating new examples. 
+#  Validator for DevExtreme - How to display validation errors only on a button click
 
-![Example image](images/image-template.png)
+This example illustrates how to avoid validating an editor after its value was changed. Validation is performed on a button click only. The main idea is to extend the default adapter and override the <a href="https://js.devexpress.com/jQuery/Documentation/ApiReference/UI_Components/dxValidator/Configuration/adapter/#bypass">bypass</a> function to complete this task. For this, create a global variable to determine if validation was raised on a button click.<br>
 
-Use **DevExtreme _Product_ - _Task_** template for a title. 
 
-Describe the solved task in this section.
-
-Put a screenshot/gif that illustrates the result here.
-
-Then, add implementation details (steps, code snippets, and other technical information in a free form), or add a link to an existing document with implementation details. 
+<div align="center"><img alt="DevExtreme Validator - How to display validation errors only on a button click" src="validator_after_submit.png" /></div>
 
 ## Files to Review
 
-- **Angular**
-    - [app.component.html](Angular/src/app/app.component.html)
-    - [app.component.ts](Angular/src/app/app.component.ts)
-- **React**
-    - [App.tsx](React/src/App.tsx)
-- **Vue**
-    - [App.vue](Vue/src/App.vue)
-    - [Home.vue](Vue/src/components/HomeContent.vue)
-- **jQuery**
-    - [index.html](jQuery/src/index.html)
-    - [index.js](jQuery/src/index.js)
-- **ASP.NET Core**    
-    - [Index.cshtml](ASP.NET%20Core/Views/Home/Index.cshtml)
+- **JS**
+    - [Validator.js](./JS/Validator.js)
 
 ## Documentation
 
-- link
-- link
-- ...
-
-## More Examples
-
-- link
-- link
-- ...
+- [Validator - API Reference](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxValidator/)
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
-[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=devextreme-examples-template&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=devextreme-examples-template&~~~was_helpful=no)
+[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=devextreme-validator-display-validation-errors-only-on-button-click&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=devextreme-validator-display-validation-errors-only-on-button-click&~~~was_helpful=no)
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->

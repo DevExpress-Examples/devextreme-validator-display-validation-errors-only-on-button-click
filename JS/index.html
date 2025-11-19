@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DevExtreme jQuery site</title>
+    <meta charset="utf-8" />
+    <link rel='stylesheet' type='text/css' href='css/dx.common.css' />
+    <link rel='stylesheet' type='text/css' href='css/dx.light.css' />
+    <style>
+        #check {
+            padding-left: 5px;
+        }
+        
+        #summary {
+            padding-left: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        #button {
+            display: block;
+            width: 100px;
+        }
+        
+        #form {
+            max-width: 600px;
+        }
+    </style>
+    <script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+    <script type='text/javascript' src='js/dx.web.js'></script>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="Validator.js"></script>
+</head>
+
+<body>
+    <div id="form">
+        <div class="dx-fieldset">
+            <h2>Application Form</h2>
+            <div class="dx-field">
+                <div class="dx-field-label">Name</div>
+                <div class="dx-field-value">
+                    <div id="name-validation"></div>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">Date of birth</div>
+                <div class="dx-field-value">
+                    <div id="date-validation"></div>
+                </div>
+            </div>
+        </div>
+        <div class="dx-fieldset">
+            <div class="dx-fieldset-header">Billing address</div>
+            <div class="dx-field">
+                <div class="dx-field-label">Country</div>
+                <div class="dx-field-value">
+                    <div id="country-validation"></div>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">City</div>
+                <div class="dx-field-value">
+                    <div id="city-validation"></div>
+                </div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">Zip code</div>
+                <div class="dx-field-value">
+                    <div id="zip-code-validation"></div>
+                </div>
+            </div>
+
+            <div class="dx-field">
+                <div class="dx-field-label">Phone <i>(optional)</i></div>
+                <div class="dx-field-value">
+                    <div id="phone-validation"></div>
+                </div>
+            </div>
+        </div>
+        <div id="check"></div>
+        <div id="summary"></div>
+        <div id="button"></div>
+    </div>
+</body>
+
+</html>
