@@ -1,4 +1,19 @@
-.demo-container {
-    margin: 50px;
-    width: 90vw;
+#check {
+  padding-left: 5px;
+}
+
+#summary {
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#button {
+  display: block;
+  width: 100px;
+}
+
+#form {
+  max-width: 600px;
+  margin: 20px;
 }
