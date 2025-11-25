@@ -14,8 +14,9 @@ This example illustrates how to avoid validating an editor after its value was c
 
 ## Files to Review
 
-- **JS**
-    - [Validator.js](./JS/Validator.js)
+- **jQuery**
+    - [index.js](/jQuery/src/index.js)
+    - [index.html](/jQuery/src/index.js)
 
 ## Documentation
 
