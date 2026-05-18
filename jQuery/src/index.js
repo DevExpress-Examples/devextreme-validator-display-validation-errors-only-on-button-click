@@ -22,16 +22,10 @@ $(() => {
 
   function extendDefaultValidator(e) {
     const defaultAdapter = e.component.option('adapter');
-    const newAdapter = $.extend(
-      {},
-      defaultAdapter,
-      {
-        bypass() {
-          return forceValidationBypass || this.editor.option('disabled');
-        },
-      },
-    );
-
+    const newAdapter = Object.create(defaultAdapter);
+    newAdapter.bypass = function () {
+      return forceValidationBypass || this.editor.option('disabled');
+    };
     e.component.option('adapter', newAdapter);
   }
 
